@@ -1,8 +1,13 @@
 
 import React from 'react'
-
-export function ProductRow() {
+import '../estilos/ProductRow.css'
+function ProductRow() {
+  const Producto="Nexus7";
+  const Precio="199.99"
   return (
-    <div>Hola Mundo</div>
+    <div className='product-row'> 
+      <span>{Producto}</span> <span>{`$ ${Precio}`}</span>
+    </div>
   )
 }
+export{ProductRow}

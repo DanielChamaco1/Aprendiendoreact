@@ -1,9 +1,13 @@
-import './App.css';
-import {ProductRow} from './ProductRow.jsx';
-
+import '../estilos/App.css';
+import ProductTable from './ProductTable';
+import { SearchBar } from './SearchBar';
 function App() {
+  
   return (
-    <ProductRow/>
+    <section className='FilterableProductTable'>
+    <SearchBar/>
+    <ProductTable/>
+    </section>
   );
 }
 
