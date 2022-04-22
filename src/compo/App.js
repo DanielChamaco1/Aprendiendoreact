@@ -1,8 +1,9 @@
 import './App.css';
+import {ProductRow} from './ProductRow.jsx';
 
 function App() {
   return (
-    <div></div>
+    <ProductRow/>
   );
 }
 
